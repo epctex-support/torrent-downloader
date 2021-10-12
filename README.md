@@ -11,7 +11,7 @@ The Torrent data scraper supports the following features:
 - Optional Seeding - If you just want to download files rather than seeding them, it is optional for you to do it.
 
 ## Disclaimer
-Please keep in mind that this actor is a toolset and the person or company who uses this actor is fully responsible of all the legal statements. Both Apify and the creator(s) of the actor are not responsible for the usage or the actions.
+**Please keep in mind that this actor is a toolset and the person or company who uses this actor is fully responsible of all the legal statements. Both Apify and the creator(s) of the actor are not responsible for the usage or the actions.**
 
 ## Bugs, fixes, updates and changelog
 This actor is under active development. If you have any feature requests you can create an issue from [here](https://github.com/tugkan/torrent-downloader/issues).
