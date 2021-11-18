@@ -33,6 +33,8 @@ The input of this actor should be JSON containing the list of URLs of Torrent fi
 | disableLogs | Boolean | (optional) Disables the informative messages from the actor logs. Default is `false`. |
 
 ## Tip
+**You can find the download link of the files from the dataset. All the files will be saved into an independent Key Value Store and the dataset contains the links for each of them**
+
 When you want to download a specific file, it is good to right click and "Copy the link" the target URL and paste it to **startUrl** array.
 
 If you enabled seeding by `enableSeeding:true`, then the actor will run forever. So if you are using the API, the best way to get all the files in a proper way is to poll the actor dataset and check if the files exist there or not.
