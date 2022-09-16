@@ -16,7 +16,7 @@ The Torrent data scraper supports the following features:
 
 ## Bugs, fixes, updates and changelog
 
-This actor is under active development. If you have any feature requests you can create an issue from [here](https://github.com/tugkan/torrent-downloader/issues).
+This actor is under active development. If you have any feature requests you can create an issue from [here](https://github.com/epctex/torrent-downloader/issues).
 
 ### Incoming Changes
 
@@ -24,22 +24,6 @@ This actor is under active development. If you have any feature requests you can
 -   Enabling/Disabling trackers
 -   More detailed/visual messages about the progress
 -   Better compression and memory consumption on actor
-
-## Setup & Usage
-
-You can see how this actor works in these videos:
-
-### Download Once
-
-Watch how to download a torrent file using Torrent Downloader [here](https://www.youtube.com/watch?v=3sBpbzgTgG8).
-
-[![Apify - Torrent Download - Download Once](https://i.imgur.com/UV1NTZd.png)](https://www.youtube.com/watch?v=3sBpbzgTgG8)
-
-### Download and Seed
-
-Watch how download and seed a torrent file using Torrent Downloader [here](https://www.youtube.com/watch?v=IwTxLQu-Iis).
-
-[![Apify - Torrent Downloader - Download and Seed](https://i.imgur.com/R3VMZvO.png)](https://www.youtube.com/watch?v=IwTxLQu-Iis)
 
 ## Input Parameters
 
