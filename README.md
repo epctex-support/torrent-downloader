@@ -2,7 +2,7 @@
 
 ## Torrent downloader
 
-Since some of the countries doesn't allow the people to download Torrent files or using the Torrent infrastucture, this actor should help you to download any Magnet, HTTP or HTTPS torrent file without any restrictions.
+Since some of the countries doesn't allow the people to download Torrent files or using the Torrent infrastructure, this actor should help you to download any Magnet, HTTP or HTTPS torrent file without any restrictions.
 
 The Torrent data scraper supports the following features:
 
