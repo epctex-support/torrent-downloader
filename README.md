@@ -29,11 +29,11 @@ This actor is under active development. If you have any feature requests you can
 
 The input of this actor should be JSON containing the list of URLs of Torrent files. Fields are:
 
-| Field         | Type    | Description                                                                                              |
-| ------------- | ------- | -------------------------------------------------------------------------------------------------------- |
-| startUrls     | Array   | (optional) List of Torrent URLs. You should only provide torrent file URLs. Can be Magnet, HTTP or HTTPS |
-| enableSeeding | Boolean | (optional) Enables the seeding for the torrents. Default is `false`.                                     |
-| disableLogs   | Boolean | (optional) Disables the informative messages from the actor logs. Default is `false`.                    |
+- `startUrls`: (Required) (Array) List of Torrent URLs. You should only provide torrent file URLs. Can be Magnet, HTTP or HTTPS.
+
+- `enableSeeding`: (Optional) (Boolean) Enables the seeding for the torrents. Default is `false`.
+
+- `disableLogs`: (Optional) (Boolean) Disables the informative messages from the actor logs. Default is `false`.
 
 ## Tip
 
