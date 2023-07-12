@@ -1,20 +1,22 @@
+[https://apify.com/epctex/torrent-downloader](https://apify.com/epctex/torrent-downloader?fpr=yhdrb)
+
 # Actor - Torrent Downloader
 
 ## Torrent downloader
 
-Since some of the countries doesn't allow the people to download Torrent files or using the Torrent infrastructure, this actor should help you to download any Magnet, HTTP or HTTPS torrent file without any restrictions.
+Since some countries don't allow people to download Torrent files or use the Torrent infrastructure, this actor should help you to download any Magnet, HTTP, or HTTPS torrent file without any restrictions.
 
 The Torrent data scraper supports the following features:
 
--   Download any Torrent file - You can paste any Magnet, HTTP or HTTPS torrent file that you want to download
+-   Download any Torrent file - You can paste any Magnet, HTTP, or HTTPS torrent file that you want to download
 
--   Optional Seeding - If you just want to download files rather than seeding them, it is optional for you to do it.
+-   Optional Seeding - If you just want to download files rather than seed them, it is optional for you to do it.
 
 ## Disclaimer
 
-**Please keep in mind that this actor is a toolset and the person or company who uses this actor is fully responsible of all the legal statements. Both Apify and the creator(s) of the actor are not responsible for the usage or the actions.**
+**Please keep in mind that this actor is a toolset and the person or company who uses this actor is fully responsible for all the legal statements. Both Apify and the creator(s) of the actor are not responsible for the usage or the actions.**
 
-## Bugs, fixes, updates and changelog
+## Bugs, fixes, updates, and changelog
 
 This actor is under active development. If you have any feature requests you can create an issue from [here](https://github.com/epctex/torrent-downloader/issues).
 
@@ -29,25 +31,25 @@ This actor is under active development. If you have any feature requests you can
 
 The input of this actor should be JSON containing the list of URLs of Torrent files. Fields are:
 
-- `startUrls`: (Required) (Array) List of Torrent URLs. You should only provide torrent file URLs. Can be Magnet, HTTP or HTTPS.
+- `startUrls`: (Required) (Array) List of Torrent URLs. You should only provide torrent file URLs. Can be Magnet, HTTP, or HTTPS.
 
-- `enableSeeding`: (Optional) (Boolean) Enables the seeding for the torrents. Default is `false`.
+- `enableSeeding`: (Optional) (Boolean) Enables the seeding for the torrents. The default is `false`.
 
-- `disableLogs`: (Optional) (Boolean) Disables the informative messages from the actor logs. Default is `false`.
+- `disableLogs`: (Optional) (Boolean) Disables the informative messages from the actor logs. The default is `false`.
 
 ## Tip
 
-**You can find the download link of the files from the dataset. All the files will be saved into an independent Key Value Store and the dataset contains the links for each of them**
+**You can find the download link of the files from the dataset. All the files will be saved into an independent Key-Value Store and the dataset contains the links for each of them**
 
-When you want to download a specific file, it is good to right click and "Copy the link" the target URL and paste it to **startUrl** array.
+When you want to download a specific file, it is good to right-click and "Copy the link" the target URL and paste it to **startUrl** array.
 
-If you enabled seeding by `enableSeeding:true`, then the actor will run forever. So if you are using the API, the best way to get all the files in a proper way is to poll the actor dataset and check if the files exist there or not.
+If you enabled seeding by `enableSeeding: true`, then the actor will run forever. So if you are using the API, the best way to get all the files properly is to poll the actor dataset and check if the files exist there or not.
 
-The actor's storage is double the size of the memory that you are giving. So it is always better to use the memory as twice as the size of the file(s) for compression and downloading purposes.
+The actor's storage is double the size of the memory that you are giving. So it is always better to use memory twice the size of the file(s) for compression and downloading purposes.
 
 ### Compute Unit Consumption
 
-The actor optimized to run blazing fast and download files as soon as possible If actor gets proper amount of seeders it'll going to consumpt ~0.1 CUs per 5 minutes.
+The actor is optimized to run blazing fast and download files as soon as possible If the actor gets the proper amount of seeders it'll go to consume ~0.1 CUs per 5 minutes.
 
 ### Torrent Actor Input example
 
@@ -66,17 +68,17 @@ The actor optimized to run blazing fast and download files as soon as possible I
 
 During the run, the actor will output messages letting you know what is going on. You can enable or disable the informative messages from the Input Schema if it is necessary.
 
-If you provide incorrect input to the actor, it will immediately stop with failure state and output an explanation of what is wrong.
+If you provide incorrect input to the actor, it will immediately stop with a failure state and output an explanation of what is wrong.
 
 ## Torrent Actor Export
 
 During the run, the actor stores results into a dataset. Each item is a separate item in the dataset.
 
-You can manage the results in any languague (Python, PHP, Node JS/NPM). See the FAQ or <a href="https://www.apify.com/docs/api" target="blank">our API reference</a> to learn more about getting results from this Torrent actor.
+You can manage the results in any language (Python, PHP, Node JS/NPM). See the FAQ or <a href="https://www.apify.com/docs/api" target="blank">our API reference</a> to learn more about getting results from this Torrent actor.
 
 ## Output schema
 
-The structure of each item on dataset when the files are downloaded.
+The structure of each item on the dataset when the files are downloaded.
 
 ```json
 {
@@ -86,4 +88,4 @@ The structure of each item on dataset when the files are downloaded.
 ```
 
 ## Contact
-Please visit us through [epctex.com](https://epctex.com) to see all the products that is available for you. If you are looking for any custom integration or so, please reach out to us through the chat box in [epctex.com](https://epctex.com). In need of support? [devops@epctex.com](mailto:devops@epctex.com) is at your service.
+Please visit us through [epctex.com](https://epctex.com) to see all the products that are available for you. If you are looking for any custom integration or so, please reach out to us through the chat box in [epctex.com](https://epctex.com). In need of support? [devops@epctex.com](mailto:devops@epctex.com) is at your service.
